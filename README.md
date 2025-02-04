@@ -79,3 +79,8 @@ Or
 * Act (Actuar): Aplicar estímulos al sujeto de pruebas
 * Assert (Afirmar): Comprobar si se da el resultado esperado
 
+## Add JEst
+
+```console
+> yarn add --dev jest
+```
