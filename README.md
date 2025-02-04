@@ -47,4 +47,34 @@ success Saved lockfile.
 Done in 118.40s.
 ```
 
+# How to run
 
+```
+> yarn dev
+```
+Or
+```
+> npm run dev
+```
+
+# The basic App
+
+The `index.html` file contains the main body od the app. All the components will be children of it.
+
+In the `src` folder, create the `main.jsx` file:
+
+```js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+function App() {
+    // document.createElement
+    return (<h1>Hi World</h1>);
+}
+
+ReactDOM.createRoot( document.getElementById('root') ).render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
+);
+```
