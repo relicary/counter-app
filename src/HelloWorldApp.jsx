@@ -1,5 +1,5 @@
-function App() {
-    return (<h1>Hi World</h1>);
+export const HelloWorldApp = () => {
+    return (
+        <h1>Hello World App</h1>
+    );
 }
-
-export default App;
