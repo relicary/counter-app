@@ -1,10 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-function App() {
-    // document.createElement
-    return (<h1>Hi World</h1>);
-}
+import { App } from './HelloWorldApp'
 
 ReactDOM.createRoot( document.getElementById('root') ).render(
     <React.StrictMode>

@@ -64,14 +64,17 @@ The `index.html` file contains the main body od the app. All the components will
 In the `src` folder, create the `main.jsx` file:
 
 ```js
+// Import React
 import React from 'react';
+// Render tool
 import ReactDOM from 'react-dom/client';
 
+// Component
 function App() {
-    // document.createElement
     return (<h1>Hi World</h1>);
 }
 
+// Render command
 ReactDOM.createRoot( document.getElementById('root') ).render(
     <React.StrictMode>
         <App />
