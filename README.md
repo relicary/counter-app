@@ -56,3 +56,26 @@ Or
 ```
 > npm run dev
 ```
+
+# Testing
+
+**¿Qué son?**
+
+* No son una pérdida de tiempo
+* Tipos: **Unitarias** y de **Integración**
+
+**Debe ser:**
+
+* Fáciles de escribir
+* Fáciles de leer
+* Fiables
+* Rápidas
+* Empezando por las unitarias (no hacerlas dentro de las de integración)
+
+
+**AAA**
+
+* Arrange (Arreglar): Es donde se establece el estado inicial
+* Act (Actuar): Aplicar estímulos al sujeto de pruebas
+* Assert (Afirmar): Comprobar si se da el resultado esperado
+
