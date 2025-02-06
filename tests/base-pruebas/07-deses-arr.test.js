@@ -1,4 +1,4 @@
-import { returnArray } from "../../base-pruebas/07-deses-arr"
+import { returnArray } from "../../src/base-pruebas/07-deses-arr"
 
 describe('Test of 07-deses-arr', () => { 
     

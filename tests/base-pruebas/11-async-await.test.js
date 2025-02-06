@@ -1,4 +1,4 @@
-import { getImage } from "../../base-pruebas/11-async-await";
+import { getImage } from "../../src/base-pruebas/11-async-await";
 
 describe('Test of 09-promises', () => { 
     

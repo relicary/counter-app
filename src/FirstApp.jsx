@@ -15,9 +15,3 @@ FirstApp.propTypes = {
     title: PropTypes.string.isRequired,
     subTitle: PropTypes.string.isRequired,
 };
-
-FirstApp.defaultProps = {
-    title: 'There is not title',
-    subTitle:'There is not subtitle',
-    firstname: "Relicary"
-}

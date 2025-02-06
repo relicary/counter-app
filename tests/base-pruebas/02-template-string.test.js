@@ -1,4 +1,4 @@
-import { getGreeting } from "../../base-pruebas/02-template-string";
+import { getGreeting } from "../../src/base-pruebas/02-template-string";
 
 describe('Test of 02-template-string', () => { 
     test('getGreeting must return "Hello Relicary"', () => { 

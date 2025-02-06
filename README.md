@@ -120,3 +120,8 @@ It is useful for managing the DOM
 ```console
 yarn add --dev @testing-library/react @testing-library/dom
 ```
+
+```console
+yarn add --dev jest-environment-jsdom
+yarn add -D @babel/preset-react
+```

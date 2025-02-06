@@ -1,4 +1,4 @@
-import { getActiveUser, getUser } from "../../base-pruebas/05-funciones";
+import { getActiveUser, getUser } from "../../src/base-pruebas/05-funciones";
 
 describe('Test of 05-funciones', () => { 
 

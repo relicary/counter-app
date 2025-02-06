@@ -1,5 +1,4 @@
-import { getHeroeById } from "../../base-pruebas/08-imp-exp";
-import { getHeroeByIdAsync } from "../../base-pruebas/09-promesas";
+import { getHeroeByIdAsync } from "../../src/base-pruebas/09-promesas";
 
 describe('Test of 09-promises', () => { 
     
