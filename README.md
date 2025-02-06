@@ -110,3 +110,13 @@ If Node is a version prior 18, an alternative to fetch is required
 ```console
 $ yarn add -D whatwg-fetch
 ```
+
+## When JEST is not enough
+
+For the recent React versions, JEST is not enough for testing React components, so it can be used [**Testing Library**](https://testing-library.com/)
+
+It is useful for managing the DOM
+
+```console
+yarn add --dev @testing-library/react @testing-library/dom
+```
