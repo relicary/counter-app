@@ -102,3 +102,11 @@ yarn add -D @types/jest
 ```console
 yarn add --dev babel-jest @babel/core @babel/preset-env
 ```
+
+## Add Dependencies for Fetch
+
+If Node is a version prior 18, an alternative to fetch is required
+
+```console
+$ yarn add -D whatwg-fetch
+```
