@@ -90,3 +90,15 @@ Or
 ```console
 > yarn test
 ```
+
+## Add assistant
+
+```console
+yarn add -D @types/jest
+```
+
+## Add Babel
+
+```console
+yarn add --dev babel-jest @babel/core @babel/preset-env
+```
