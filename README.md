@@ -125,3 +125,7 @@ yarn add --dev @testing-library/react @testing-library/dom
 yarn add --dev jest-environment-jsdom
 yarn add -D @babel/preset-react
 ```
+
+# Snapshot
+
+It's useful for checking static HTML elements
