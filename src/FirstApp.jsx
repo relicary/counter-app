@@ -4,7 +4,8 @@ export const FirstApp = ({ title, subTitle, firstname }) => {
 
     return (
         <>
-            <h1>{ title }</h1>
+            <div data-testid="test-title">{ title }</div>
+            {/*<h1>{ title }</h1>*/}
             <p>{ subTitle }</p>
             <p>{ firstname }</p>
         </>

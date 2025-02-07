@@ -12,20 +12,39 @@ describe('Test in <FirstApp />', () => {
         const { container } = render( <FirstApp title={title} subTitle={subTitle} /> );
 
         expect(container).toMatchSnapshot();
+
     });
 
-    test('Should render the title inside a H1 tag', () => { 
+    test('Should render the title inside a H1 tag', () => {
+
         const title = 'Hello, I am Relicary';
         const subTitle = 'This is a subtitle';
 
-        const { container, getByText } = render( <FirstApp title={title} subTitle={subTitle} /> );
+        const { container, getByText, getByTestId } = render( <FirstApp title={title} subTitle={subTitle} /> );
 
         expect( getByText(title) ).toBeTruthy();
 
-        const h1 = container.querySelector('h1');
+        // const h1 = container.querySelector('h1');
 
-        expect(h1.innerHTML).toBe( title );
-        expect(h1.innerHTML).toContain( title );
+        // expect(h1.innerHTML).toBe( title );
+        // expect(h1.innerHTML).toContain( title );
+
+        expect(getByTestId('test-title')).toBeTruthy();
+        expect(getByTestId('test-title').innerHTML).toBe(title);
     });
 
+    test('Should render the subTitle sent by Props', () => { 
+        const title = 'Hello, I am Relicary';
+        const subTitle = 'This is a subtitle';
+
+        const { getByText, getAllByText } = render(
+            <FirstApp title={title} subTitle={subTitle} /> 
+        );
+
+        expect( getByText(subTitle) ).toBeTruthy();
+        expect( getAllByText(subTitle).length ).toBe(1);
+        
+     })
+
  })
+ 
